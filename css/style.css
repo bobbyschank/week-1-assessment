@@ -91,7 +91,7 @@ button {
     transition-duration: 0.4s;
 }
 #loginButton:hover {
-    background-color: #788396;
+    background-color: #000000;
     box-shadow: 4px 4px 2px rgb(50, 94, 151);
 
 }
