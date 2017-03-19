@@ -1,0 +1,30 @@
+
+#content {
+	border-radius: 5px;
+	/*display: absolute;*/
+	background-color: yellow;
+}
+body {
+	    background-image: url("../images/bgtile.png");
+    background-repeat: repeat-x;
+background-color: rgb(245,246,248);
+padding: 40px 0 10px 40px;
+}
+main {
+/*	position: relative;
+	top: 100px;*/
+}
+footer {
+	background-color: pink;
+	clear: left;
+}
+img {
+
+}
+li {
+	display: inline;
+}
+#phonesImage {
+	/*display: inline;*/
+	float: left;
+}
