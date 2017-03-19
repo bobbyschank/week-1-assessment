@@ -91,9 +91,8 @@ button {
     transition-duration: 0.4s;
 }
 #loginButton:hover {
-    background-color: #000000;
+    background-color: #444444;
     box-shadow: 4px 4px 2px #444444;
-
 }
 
 #appStoreImg, #googlePlayImg{
