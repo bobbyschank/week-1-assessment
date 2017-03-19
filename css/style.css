@@ -6,7 +6,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 header {
-	padding: 20px 0;
 }
 main {
 	background-color: white;
@@ -19,6 +18,7 @@ footer {
 	text-transform: uppercase;
 	color: rgb(60, 100, 135);
 	clear: left;
+	padding-top: 20px;
 }
 h2 {
 	font-size: 22px;
@@ -38,7 +38,7 @@ img {
 
 }
 li {
-	display: inline;
+	display: inline-block;
 	font-size: 12px;
 	font-weight: 800;
 	padding: 0 5px;
@@ -46,8 +46,9 @@ li {
 button {
 	border-radius: 5px;
 	background-color: rgb(60, 100, 135);
-	position: relative;
-	bottom: 20px;
+	/*position: relative;*/
+	/*float: right;*/
+	/*bottom: 20px;*/
 }
 .copyright {
 	color: rgb(190, 190, 190);
@@ -63,19 +64,38 @@ button {
 	display: inline-block;
 }
 #phonesImage {
-	margin-right: 30px;
+	display: none;
+}
+@media (min-width: 863px) {
+  #phonesImage {
+  	display: inline-block;
+    margin-right: 30px;
+  }
+  li {
+  	display: inline;
+  }
 }
 #brandImage {
 	width: 250px;
 }
 #loginButton {
-	color: white;
-	float: right;
-	margin: 30px 0 30px 0;
 	font-size: 14px;
-	padding: 8px;
+	padding: 5px;
+	background-color: rgb(106, 142, 172);
+    color: white;
+    float: right;
+    position: relative;
+    top: 7px;
+    border: 2px solid rgb(50, 94, 151);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#loginButton:hover {
+    background-color: #788396;
+    box-shadow: 4px 4px 2px rgb(50, 94, 151);
 
 }
+
 #appStoreImg, #googlePlayImg{
 	width: 40%;
 	height: 50px;
@@ -84,6 +104,7 @@ button {
 #content {
 	display: inline-block;
 	width: 450px;
+	margin: 0 auto;
 	/*height: 512px;*/
 	/*position: relative;*/
 	/*top: 0px;*/
