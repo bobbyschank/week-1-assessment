@@ -1,7 +1,7 @@
 body {
 	background-image: url("../images/bgtile.png");
     background-repeat: repeat-x;
-	background-color: rgb(245,246,248);
+	background-color: rgb(245,246,248); // light grey
 	padding: 60px 0 10px 60px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -51,7 +51,7 @@ button {
 	/*bottom: 20px;*/
 }
 .copyright {
-	color: rgb(190, 190, 190);
+	color: rgb(190, 190, 190); //turns copyright grey
 }
 .login {
 	position: relative;
@@ -60,15 +60,15 @@ button {
 	padding: 0 8px;
 	font-weight: 400;
 }
-#phonesDiv{
+#phonesDiv{ // 
 	display: inline-block;
 }
 #phonesImage {
-	display: none;
+	display: none; // on small windows, image of phones disappears
 }
 @media (min-width: 863px) {
   #phonesImage {
-  	display: inline-block;
+  	display: inline-block; // with larger window (863px and up), phones image appears
     margin-right: 30px;
   }
   li {
@@ -81,18 +81,18 @@ button {
 #loginButton {
 	font-size: 14px;
 	padding: 5px;
-	background-color: rgb(106, 142, 172);
+	background-color: rgb(106, 142, 172); //dark blue
     color: white;
-    float: right;
+    float: right;  // pushes login button to right of parent (header)
     position: relative;
     top: 7px;
     border: 2px solid rgb(50, 94, 151);
     -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+    transition-duration: 0.4s; // how long it takes for animations
 }
 #loginButton:hover {
-    background-color: #444444;
-    box-shadow: 4px 4px 2px #444444;
+    background-color: #444444; // button turns dark grey when mouse hovers over it.
+    box-shadow: 4px 4px 2px #444444; //shadow is stronger when mouse hovers over
 }
 
 #appStoreImg, #googlePlayImg{
